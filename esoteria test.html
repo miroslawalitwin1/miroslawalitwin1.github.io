@@ -1,0 +1,131 @@
+<html>
+<head>
+	<title>esoteria</title>
+	<style>
+		body{
+			background-color: linen;
+		}
+		h1, h2, h3{
+			text-align:center;
+			width:100%;
+			color:maroon;
+		}
+		.narrow-paragraph{
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.bottom-wrapper{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+		}
+		.peace{
+			/*width:200px;
+			height:100px;*/
+			color:maroon;
+			padding:50px;
+			border:2px dashed red;
+			font-family:"Trebuchet MS", Veranda, sans-serif;
+			font-size:24px;
+		}
+		.nav-box{
+			padding:10px 20px;
+			border:1px solid black;
+		}
+		nav{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.wrapper{
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.box{
+			display:inline-block;
+			width:49%;
+			background-color:lightblue;
+		}
+		.spinning-box{
+			width:40px;
+			height:40px;
+			background-color:brown;
+			animation: mymove 5s infinite;
+			margin:0 auto;
+		}
+		.sidebar {
+			position: absolute;
+			top: 400px;
+			left: 100px;
+			background-color: white;
+			padding: 20px;
+		}
+		
+		.right-sidebar {
+			position: absolute;
+			top: 400px;
+			right: 100px;
+			background-color: white;
+			padding: 50px;
+		}
+		@keyframes mymove{
+			0%{
+			}
+			50%{
+				transform:rotate(360deg) scale(0.5);
+			}
+			100%{
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box">
+			<div class="spinning-box"></div>
+		</div>
+		<div class="box">
+			<div class="spinning-box"></div>
+		</div>
+	</div>
+	<nav>
+		<a class="nav-box" href="science.html">Science</a>
+		<a class="nav-box" href="Yoga4.html">Yoga</a>
+		<a class="nav-box" href="various.html">Various</a>
+		<a class="nav-box" href="index.html">Back to Main Page</a>
+	</nav>
+	<div class="sidebar">
+		<h2>Articles</h2>
+		<ul>
+			<li><a href="chakras.html"> Chakras</a></li>
+			<li><a href="meditation.html">Meditation</a></li>
+		</ul>
+	</div>
+	<div class="right-sidebar">
+		<h3>Note</h2>
+		<p>Test here</p>
+	</div>
+	<h1>Esoteria</h1>
+	<h2>Secret Doctrine</h2>
+	<h3>Introduction</h3>
+	<p class="narrow-paragraph">
+		
+	</p>
+	<p class="narrow-paragraph">
+		
+	</p>
+	<p class="narrow-paragraph">
+		
+	</p>
+	<div class="bottom-wrapper">
+		<img src="Neural-asemb.jpg" alt"photo of neural assembly" width="200" height="200">
+		<div class="peace">Peace</div>
+		<img src="HoagObject.jpg" alt"photo of Hoag in space" width="200" height="200">
+	</div>
+</body>
+</html>

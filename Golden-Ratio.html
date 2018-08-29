@@ -1,0 +1,187 @@
+<html>
+<head>
+	<title>Golden Ratio</title>
+	<style>
+		body{
+			background-color: linen;
+		}
+		h1, h2, h3{
+			text-align:center;
+			width:100%;
+			color:maroon;
+		}
+		.narrow-paragraph{
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.bottom-wrapper{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+		}
+		.phi{
+			/*width:200px;
+			height:100px;*/
+			color:maroon;
+			padding:50px;
+			border:2px dashed red;
+			font-family:"Trebuchet MS", Veranda, sans-serif;
+			font-size:24px;
+		}
+		.nav-box{
+			padding:10px 20px;
+			border:1px solid black;
+		}
+		nav{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.wrapper{
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.box{
+			display:inline-block;
+			width:49%;
+			background-color:lightblue;
+		}
+		.spinning-box{
+			width:40px;
+			height:40px;
+			background-color:brown;
+			animation: mymove 5s infinite;
+			margin:0 auto;
+		}
+		
+		.coloured-box {
+			text-align: center;
+			border-top: 1px solid black;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			text-transform: uppercase;
+			padding: 3px;
+		}
+		
+		.coloured-box.one {
+			width: 300px;
+			margin: 0 auto;
+			border-color: violet;
+		}
+		.coloured-box.two {
+			width: 250px;
+			margin: 0 auto;
+			border-color: blue;
+		}
+		.coloured-box.three {
+			width: 200px;
+			margin: 0 auto;
+			border-color: purple;
+		}
+		.coloured-box.four {
+			width: 150px;
+			margin: 0 auto;
+		}
+		
+		.sidebar {
+			position: absolute;
+			top: 400px;
+			left: 100px;
+			background-color: white;
+			padding: 20px;
+		}
+		
+		.right-sidebar {
+			position: absolute;
+			top: 400px;
+			right: 100px;
+			background-color: white;
+			padding: 50px;
+		}
+		
+		.spin-img{
+			transition:1s all;
+		}
+		.spin-img:hover{
+			width:300px;
+			transform:rotate(360deg);
+		}
+		.bottom-margin{
+			margin-bottom: 80px;
+		}
+		@keyframes mymove{
+			0%{
+			}
+			50%{
+				transform:rotate(360deg) scale(0.5);
+			}
+			100%{
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box">
+			<div class="spinning-box"></div>
+		</div>
+		<div class="box">
+			<div class="spinning-box"></div>
+		</div>
+	</div>
+	<nav>
+		<a class="nav-box" href="science.html">Back to Science</a>
+		
+		<a class="nav-box" href="index.html">Back to Main Page</a>
+	</nav>
+	<h1 id="goldenratio">Golden Ratio</h1>
+	<p class="narrow-paragraph">
+		The first clear definition of Golden Ratio was given around 300 B.C. 
+		by the founder of geometry, Euclides of Alexandria. He did not really discover geometry. It was known long before him.
+		When line AB is certainly longer than the segment AC; at the same time ,
+		the segment AC is longer than BC then the ratio of the length of AC to that CB
+		is the same as the ratio of AB to AC - then the line has been cut in extreme and mean ratio, or in a Golden Ratio.
+	</p>
+	<p class="narrow-paragraph">
+		This is irrational number, never ending, never repeating and is equal 1.618033987...
+	</p>
+	<p class="narrow-paragraph">
+		A...................................C...............B
+	</p>
+	<p class="narrow-paragraph">
+		This number is hidden in spiral patterns of Nature starting from galaxies, pineaples conical shapes,
+		spiral patterns in the sunflower formed by florets, the rose petals, the mollusc shells,
+		or flight of peregrine falcons when attacking their prey.
+	</p>
+	<p class="narrow-paragraph">
+		Observations conducted with the Hubble Space Telescope also revealed that there are many spiral
+		galaxies in some one hundred billion galaxies in our observable universe. They also obey the rule
+		of logarithmic spiral hidden in the Golden Rectangle and Golden Triangle as well.
+	</p>
+	<p class="narrow-paragraph">
+		Golden Ratio can be found not only in natural phenomena but also in a variety of human-made objects and works of art.
+		For example, in Salvadore Dali's painting "Sacrament of the Last Supper", where dimensions of the painting are in 
+		Golden Ratio to each other (about 105x65 inches). Part of dodecahedron is seen in the picture floating above the table.
+		Regular solids that can be precisely enclosed by a sphere, and dodecahedron in particular, are intimately related to the Golden Ratio.
+	</p>
+	<p class="narrow-paragraph">
+		The numbers in family tree,1,1,2,3,5,8,13,...form a Fibonacci sequence. If we denote 
+		the nth Fibonacci number by Fn and the next one by Fn+1, then we discover that the ratio Fn+1/Fn approaches phi as n becomes larger.
+	</p>
+	<p class="narrow-paragraph">
+		We are familiar with the beautiful spiral structures of many shells of molluscs, such as chambered nautilus. In fact,
+		the dancing Shiva of Hindu myth holds such a nautilus in one of his hands, as a symbol of one of the instruments initiating
+		creation. It is like molusc shell below. This molusc shell is from Madagascar and is 370 millions years old.
+	</p>
+	<div class="bottom-wrapper">
+		<img src="SAM_0061.JPG" class="spin-img bottom-margin" alt="photo of mollucs" width="200">
+		<div class="phi bottom-margin">Phi</div>
+		
+	</div>
+</body>
+</html>
