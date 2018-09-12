@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>various</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		body{
 			background-color: linen;
@@ -88,6 +89,36 @@
 				display: none !important;
 			}
 		}
+		@media only screen and (max-width: 1343px) {
+			.right-sidebar, .sidebar  {
+				position: static;
+				top: 0;
+				right: auto;
+				max-width: none;
+			}
+			
+			.narrow-paragraph {
+				max-width: none;
+				width: 95%;
+			}
+			
+			.wrapper{
+				max-width: none;
+			}
+			
+		}
+		
+		@media only screen and (max-width: 585px) {
+			.bottom-wrapper {
+				display: block;
+				text-align: center;
+			}
+			
+			.bottom-wrapper img {
+				max-width: 100%;
+			}
+		
+		}
 	</style>
 </head>
 <body>
@@ -105,18 +136,7 @@
 		<a class="nav-box" href="esoteria.html">Esoteria</a>
 		<a class="nav-box" href="index.html">Back to Main Page</a>
 	</nav>
-	<div class="sidebar no-print">
-		<h2>Articles</h2>
-		<ul>
-			<li><a href="samadhi.html">Samadhi</a></li>
-		</ul>
-	</div>
-	<div class="right-sidebar no-print">
-		<h3>Note</h2>
-		<p>Did you know that basic blocks of matter comprise of five Platonic Solids? They are atoms,
-			viruses and all biosphere's simple creatures. The HIV virus is shaped as dodecahedron.
-		</p>
-	</div>
+	
 	<h1>Various</h1>
 	<h2></h2>
 	<h3>Introduction</h3>
@@ -172,6 +192,18 @@
 		"Knowledge springs from sorrow". (<i>Markandeya-Purana</i> (XXXIX. 2) and Mahabharata (III, 2. 24))
 		"He who knows Self, traverses sorrow". (<i>Chandogya-Upanishad</i> (VII. I. 3))
 	</p>
+	<div class="sidebar no-print">
+		<h2>Articles</h2>
+		<ul>
+			<li><a href="samadhi.html">Samadhi</a></li>
+		</ul>
+	</div>
+	<div class="right-sidebar no-print">
+		<h3>Note</h2>
+		<p>Did you know that basic blocks of matter comprise of five Platonic Solids? They are atoms,
+			viruses and all biosphere's simple creatures. The HIV virus is shaped as dodecahedron.
+		</p>
+	</div>
 	<div class="bottom-wrapper">
 		<img src="BuddhistMonk.jpg" alt="photo of monk" width="200" >
 		<div class="sat">SAT</div>
