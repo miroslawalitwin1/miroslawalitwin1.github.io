@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Golden Ratio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		body{
 			background-color: linen;
@@ -122,6 +123,36 @@
 			}
 			100%{
 			}
+		}
+		@media only screen and (max-width: 1343px) {
+			.right-sidebar, .sidebar  {
+				position: static;
+				top: 0;
+				right: auto;
+				max-width: none;
+			}
+			
+			.narrow-paragraph {
+				max-width: none;
+				width: 95%;
+			}
+			
+			.wrapper{
+				max-width: none;
+			}
+			
+		}
+		
+		@media only screen and (max-width: 585px) {
+			.bottom-wrapper {
+				display: block;
+				text-align: center;
+			}
+			
+			.bottom-wrapper img {
+				max-width: 100%;
+			}
+		
 		}
 	</style>
 </head>
