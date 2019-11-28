@@ -1,0 +1,329 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Samadhi</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			background-color: linen;
+		}
+		h1, h2, h3{
+			text-align:center;
+			width:100%;
+			color:maroon;
+		}
+		.narrow-paragraph{
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.bottom-wrapper{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+		}
+		.phi{
+			/*width:200px;
+			height:100px;*/
+			color:maroon;
+			padding:50px;
+			border:2px dashed red;
+			font-family:"Trebuchet MS", Veranda, sans-serif;
+			font-size:24px;
+		}
+		.nav-box{
+			padding:10px 20px;
+			border:1px solid black;
+		}
+		nav{
+			display:flex;
+			justify-content:space-around;
+			align-items:center;
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.wrapper{
+			max-width:600px;
+			margin:0 auto;
+			margin-bottom:20px;
+		}
+		.box{
+			display:inline-block;
+			width:49%;
+			background-color:lightblue;
+		}
+		.spinning-box{
+			width:40px;
+			height:40px;
+			background-color:brown;
+			animation: mymove 5s infinite;
+			margin:0 auto;
+		}
+		
+		.coloured-box {
+			text-align: center;
+			border-top: 1px solid black;
+			border-left: 1px solid black;
+			border-right: 1px solid black;
+			text-transform: uppercase;
+			padding: 3px;
+		}
+		
+		.coloured-box.one {
+			width: 300px;
+			margin: 0 auto;
+			border-color: violet;
+		}
+		.coloured-box.two {
+			width: 250px;
+			margin: 0 auto;
+			border-color: blue;
+		}
+		.coloured-box.three {
+			width: 200px;
+			margin: 0 auto;
+			border-color: purple;
+		}
+		.coloured-box.four {
+			width: 150px;
+			margin: 0 auto;
+		}
+		
+		.sidebar {
+			position: absolute;
+			top: 400px;
+			left: 100px;
+			background-color: white;
+			padding: 20px;
+		}
+		
+		.right-sidebar {
+			position: absolute;
+			top: 400px;
+			right: 100px;
+			background-color: white;
+			padding: 50px;
+		}
+		
+		canvas { 
+			width: 100%; 
+			height: 100%;
+			padding-left: 0;
+			padding-right: 0;
+			margin-left: auto;
+			margin-right: auto;
+			display: block;
+			width: 800px;
+		}
+		
+		.spin-img{
+			transition:1s all;
+		}
+		.spin-img:hover{
+			width:300px;
+			transform:rotate(360deg);
+		}
+		.bottom-margin{
+			margin-bottom: 80px;
+		}
+		.rotate-right {
+			transform: rotate(0deg);
+		}
+		@keyframes mymove{
+			0%{
+			}
+			50%{
+				transform:rotate(360deg) scale(0.5);
+			}
+			100%{
+			}
+		}
+		@media only screen and (max-width: 1343px) {
+			.right-sidebar, .sidebar  {
+				position: static;
+				top: 0;
+				right: auto;
+				max-width: none;
+			}
+			
+			.narrow-paragraph {
+				max-width: none;
+				width: 95%;
+			}
+			
+			.wrapper{
+				max-width: none;
+			}
+			
+		}
+		
+		@media only screen and (max-width: 585px) {
+			.bottom-wrapper {
+				display: block;
+				text-align: center;
+			}
+			
+			.bottom-wrapper img {
+				max-width: 100%;
+			}
+		
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box">
+			<div class="spinning-box"></div>
+		</div>
+		<div class="box">
+			<div class="spinning-box"></div>
+		</div>
+	</div>
+	<nav>
+		<a class="nav-box" href="Various.html">Back to Various</a>
+		
+		<a class="nav-box" href="index.html">Back to Main Page</a>
+	</nav>
+	<h1 id="goldenratio">I Am That</h1>
+	<p class="narrow-paragraph">
+		The diagram bellow is a simplified picture of esoteric and
+		exoteric constitution of Reality on all planes.	
+	</p>
+	<p class="narrow-paragraph">
+		1.The dark brown, small and rotating cube in the centre represents
+		you as a being written into the square of space time. [ It can also represent universe].
+	</p>
+	<p class="narrow-paragraph">
+		2.The two pyramids piercing the small cube are two major living Forces:
+		a. the light brown pyramid-force pushing from bottom upwards;
+		b. the light violet pyramid-divine force descending and pushing from above downwards.
+		This is exactly what you experience in the life of Nature and yourself
+		on the path of Sadhana.
+	</p>
+	<p class="narrow-paragraph">
+		3.The dark orange circle represents your Personal God – with attributes
+		like Omnipresent, Omniscient, Almighty – Saguna Brahman.
+	</p>
+	<p class="narrow-paragraph">
+		4.The dark grey, large and rotating cube-frame behind the orange
+		circle represents Dark and hostile Forces and Powers adverse to 
+		Nature and human beings. They are Evil Spirits and Brothers of Left Path.
+	</p>
+	<p class="narrow-paragraph">
+		5.The very large dotted circle represents Impersonal God – without name,
+		without attributes, Ineffable, Unknowable – Nirguna Brahman. As you can
+		see its space-dots pervade and permeate all previous entities. It is
+		indeed that worlds are in Him, move in Him, and have in Him their being.
+	</p>
+	<p class="narrow-paragraph">
+		Please notice a little light dot at the centre of the little dark brown 
+		cube – it is your Eternal Self. It is God in you. It is your true Life
+		and true heritage. YOU ARE THAT – if you recoil yourself from identifying 
+		with your body, mind, personality, ego. If you will try to identify yourself 
+		with your Eternal Self – which is Brahman – you will reach not only 
+		Self-realisation, but also God-realisation. You will touch Immortality
+		which is beyond inner self and you will enter Eternity which is beyond 
+		this space-time. If you persevere in purification of body, mind and ego 
+		[cause of dualities], and make them faithful instruments of your Spirit,
+		instead of masters as they are now; you will reclaim your birthright and
+		you will be THAT.  
+	</p>
+
+	<script src="js/three.js"></script>
+	<script>
+		var scene = new THREE.Scene();
+		var camera = new THREE.PerspectiveCamera( 75,window.innerWidth/window.innerHeight, 0.1, 1000 );
+		
+		var renderer = new THREE.WebGLRenderer();
+		renderer.setClearColor(0xf5f395);
+		renderer.setSize( window.innerWidth/2, window.innerHeight/2 );
+		document.body.appendChild( renderer.domElement ); 
+		
+		var cubeGeometry = new THREE.BoxGeometry( .5, .5, .5 );
+		var bigCubeGeometry = new THREE.BoxGeometry( 3, 3, 0.2 );
+		var circleGeometry = new THREE.CircleGeometry( 1.5, 32 );
+		var bigCircleGeometry = new THREE.CircleGeometry( 4.5, 32);
+		var pointCircleGeometry  = new THREE.SphereBufferGeometry(3.5, 40, 40);
+		var coneGeometry = new THREE.ConeBufferGeometry(1, 1, 3);
+		//PUT CONE GEOMETRY HERE
+		
+		var pointMaterial =  new THREE.PointsMaterial({
+			color: 0xA58533,
+			size: 0.05,     // in world units
+		});
+				
+		
+					
+		var shapes = [
+		  makeInstance(cubeGeometry, 0x4d351f, 0, 0, 0,0),
+		  makeInstance(circleGeometry, 0xcca647, 0, 0 , 0,0),
+		  makeInstance(bigCubeGeometry, 0xa19a89, 0, 0, -0.6,0),
+		  makeInstance(coneGeometry, 0xd3c0eb, 0, 0.5, 0, 3.14159),
+		  makeInstance(coneGeometry, 0xC6783E, 0, -0.5, 0,0),
+		  //PUT CONE HEERE
+		  makePointInstance(pointCircleGeometry,  0, 0, -1, pointMaterial,0)
+		];
+		
+		
+		
+		var lightColor = 0xffffff;
+		var groundColor = 0x373737;
+		var lightIntensity = 1;
+		var light = new THREE.HemisphereLight(lightColor, groundColor, lightIntensity);
+		light.position.set(0,0, 4);
+		scene.add(light);
+
+		camera.position.z = 5;
+		
+		function makeInstance(geometry, color, x, y, z, yRotation) {
+	
+		  var material = new THREE.MeshPhongMaterial({color});
+	
+		  var shape = new THREE.Mesh(geometry, material);
+		  scene.add(shape);
+		 
+		  shape.position.x = x;
+		  shape.position.y = y;
+		  shape.position.z = z;
+		  
+		  shape.rotation.z = yRotation;
+		 
+		  return shape;
+		}
+		
+		function makePointInstance(geometry, x, y, z, materialInput) {
+	
+		  var material = materialInput;
+	
+		  var points = new THREE.Points(geometry, material);
+		  scene.add(points);
+		 
+		  points.position.x = x;
+		  points.position.y = y;
+		  points.position.z = z;
+		 
+		  return points;
+		}
+		
+	
+		function animate(time) {
+		
+			requestAnimationFrame( animate );
+			time *= 0.001;
+			shapes.forEach((cube, ndx) => {
+				if(ndx == 0 || ndx == 2) {
+					const speed = 0.5 + ndx * .1;
+					const rot = time * speed;
+					//cube.rotation.x = rot;
+					cube.rotation.y = rot;
+				}
+			
+			  });
+			renderer.render( scene, camera );
+		}
+		animate();
+		
+	</script>
+</body>
+</html>
